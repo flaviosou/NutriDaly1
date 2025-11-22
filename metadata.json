@@ -1,0 +1,7 @@
+{
+  "name": "Copy of NutriDaily",
+  "description": "A web platform for daily recipes, with automatic menu generation (breakfast, lunch, and dinner) and a social area where subscribers can publish, like, and interact with recipes.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

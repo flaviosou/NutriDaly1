@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NutriDaily</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Habilitar modo escuro
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              primary: '#16a34a', // green-600
+              'primary-hover': '#15803d', // green-700
+              'primary-light': '#dcfce7', // green-100
+              secondary: '#f97316', // orange-500
+              'secondary-hover': '#ea580c', // orange-600
+              
+              // Cores para tema claro
+              'light-bg': '#f8fafc', // slate-50
+              'light-text': '#0f172a', // slate-900
+              'light-card': '#ffffff',
+              'light-border': '#e2e8f0', // slate-200
+
+              // Cores para tema escuro
+              'dark-bg': '#0f172a', // slate-900
+              'dark-text': '#f8fafc', // slate-50
+              'dark-card': '#1e293b', // slate-800
+              'dark-border': '#334155', // slate-700
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "jspdf": "https://aistudiocdn.com/jspdf@^2.5.1",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-light-bg text-light-text font-sans text-base">
+    <div id="root"></div>
+  </body>
+</html>
